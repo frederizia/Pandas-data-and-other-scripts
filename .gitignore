@@ -1,4 +1,4 @@
 *.sw*
 *.pyc
-.ipynb_checkpoints
-Untitled.*
+*/.ipynb_checkpoints
+*/Untitled.*
