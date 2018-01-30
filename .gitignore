@@ -3,6 +3,6 @@
 */.ipynb_checkpoints/
 */Untitled.*
 */keys.py
-*/backup
-*/*.log
-*/log.out
+DataProject/backup
+DataProject/*.log
+DataProject/log.out
