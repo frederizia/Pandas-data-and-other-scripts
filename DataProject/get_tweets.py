@@ -127,7 +127,7 @@ def main():
     users_politicians = ['realDonaldTrump', 'HillaryClinton', 'BarackObama']
     users_media = ['BBCWorld', 'cbcnews', 'cnn', 'foxnews', 'guardian', 'MSNBC', 'BreitbartNews', 'Reuters', 'CBSNews', 'NBCNews']
     search = ['Trump', 'Obama', 'Hillary']
-    
+
     # make API call
     API = twitter_auth()
 
@@ -137,7 +137,6 @@ def main():
     for p in users_politicians:
         find_tweets(API,p,WD)
         search_tweets(API, "@{}-filter:noretweets".format(p),p, WD)
-        #search_tweets(API, "%40{}%20-filter%3Anoretweets".format(p),p, WD)
 
     # news tweets
     for m in users_media:
