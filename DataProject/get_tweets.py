@@ -114,14 +114,23 @@ def search_tweets(api,query,name,wd):
 
 def main():
 
+    # Get the following from keys.py:
+    #
+    # For the Twitter API:
+    # CONSUMER_KEY, CONSUMER_SECRET
+    # ACCESS_TOKEN, ACCESS_SECRET
+    #
+    # For saving files:
+    # WD = working directory
+
+
     users_politicians = ['realDonaldTrump', 'HillaryClinton', 'BarackObama']
     users_media = ['BBCWorld', 'cbcnews', 'cnn', 'foxnews', 'guardian', 'MSNBC', 'BreitbartNews', 'Reuters', 'CBSNews', 'NBCNews']
     search = ['Trump', 'Obama', 'Hillary']
+    
     # make API call
     API = twitter_auth()
 
-    # date today
-    # find since date
 
 
     # politician tweets
@@ -134,7 +143,7 @@ def main():
     for m in users_media:
         find_tweets(API,m,WD)
 
-    # tweets with hashtag
+    # tweets containing
     for s in search:
         search_tweets(API, s, s, WD)
 
