@@ -1,0 +1,1 @@
+This is a project involving scraping Twitter data using '''tweepy''' and the official Twitter REST API. I've chosen popular American political figures and some news outlets, with a view of tracking frequency of tweets and doing some sentiment analysis on the tweets.
