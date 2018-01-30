@@ -3,6 +3,7 @@ This is a project involving scraping Twitter data using ```tweepy``` and the off
 The output is saved to logfiles with names
 
 ```tweets-screen_name-YearMonthDay.log```
+
 ```search-query-YearMonthDay.log```
 
 where JSON objects are returned including essential information.
