@@ -40,7 +40,7 @@ def check_entry(wd,name,screenname, tweet_id, tweet_time):
     return return_code
 
 def file_date(t):
-    date_new = t.strftime("%Y%m")
+    date_new = t.strftime("%Y%m%d")
     return date_new
 
 def time_to_string(t):
