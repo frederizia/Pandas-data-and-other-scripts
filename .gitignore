@@ -6,4 +6,7 @@
 DataProject/backup
 DataProject/*.log
 DataProject/log.out
+<<<<<<< HEAD
 DI_Challenge
+=======
+>>>>>>> e2e3f3ae3d88c182563a681b7ed5daf88ee1038a
